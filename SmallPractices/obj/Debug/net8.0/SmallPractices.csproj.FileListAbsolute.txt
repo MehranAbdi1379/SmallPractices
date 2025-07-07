@@ -1,0 +1,14 @@
+F:\Projects\SmallPractices\SmallPractices\bin\Debug\net8.0\SmallPractices.exe
+F:\Projects\SmallPractices\SmallPractices\bin\Debug\net8.0\SmallPractices.deps.json
+F:\Projects\SmallPractices\SmallPractices\bin\Debug\net8.0\SmallPractices.runtimeconfig.json
+F:\Projects\SmallPractices\SmallPractices\bin\Debug\net8.0\SmallPractices.dll
+F:\Projects\SmallPractices\SmallPractices\bin\Debug\net8.0\SmallPractices.pdb
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\SmallPractices.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\SmallPractices.AssemblyInfoInputs.cache
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\SmallPractices.AssemblyInfo.cs
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\SmallPractices.csproj.CoreCompileInputs.cache
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\SmallPractices.dll
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\refint\SmallPractices.dll
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\SmallPractices.pdb
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\SmallPractices.genruntimeconfig.cache
+F:\Projects\SmallPractices\SmallPractices\obj\Debug\net8.0\ref\SmallPractices.dll
