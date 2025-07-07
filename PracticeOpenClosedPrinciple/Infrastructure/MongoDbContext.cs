@@ -36,4 +36,9 @@ public class MongoDbContext<T> where T : BaseEntity
     {
         return (await _collection.FindAsync(_ => true)).ToList();
     }
+
+    public IQueryable<T> GetQueryable()
+    {
+        return _collection.AsQueryable();
+    }
 }

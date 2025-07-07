@@ -19,6 +19,12 @@ public class AddContactFunction : IContactFunction
     {
         Console.Write("Please enter name: ");
         var name = Console.ReadLine();
+        if (_db.GetQueryable().Any(c => c.Name == name))
+        {
+            Console.WriteLine("Name already exists");
+            return;
+        }
+
         Console.Write("Please enter phone number: ");
         var phone = Console.ReadLine();
         var newContact = new Contact { Name = name, Phone = phone };

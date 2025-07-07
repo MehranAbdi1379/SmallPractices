@@ -18,8 +18,8 @@ public class UpdateContactFunction : IContactFunction
     public async Task Action()
     {
         Console.Write("Please enter name: ");
-        var name = Console.ReadLine();
-        var updateContact = (await _db.GetAllAsync()).FirstOrDefault(c => c.Name == name);
+        var name = Console.ReadLine() ?? string.Empty;
+        var updateContact = _db.GetQueryable().FirstOrDefault(c => c.Name.ToLower() == name.ToLower());
         while (updateContact == null)
         {
             Console.WriteLine("Contact does not exist");

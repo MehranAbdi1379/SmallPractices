@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using MongoDB.Bson;
 using PracticeOpenClosedPrinciple;
 using PracticeOpenClosedPrinciple.Infrastructure;
 using PracticeOpenClosedPrinciple.Model;
@@ -14,7 +13,8 @@ var contactFunctions = new List<IContactFunction>
     new AddContactFunction(contactRepository),
     new UpdateContactFunction(contactRepository),
     new DeleteContactFunction(contactRepository),
-    new ExportContactsToFileFunction(contactRepository)
+    new ExportContactsToFileFunction(contactRepository),
+    new SearchContactsByNameFunction(contactRepository)
 };
 
 MongoClassMapping.RegisterClassMaps();

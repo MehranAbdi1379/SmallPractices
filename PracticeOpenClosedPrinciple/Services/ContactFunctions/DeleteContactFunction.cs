@@ -20,7 +20,7 @@ public class DeleteContactFunction : IContactFunction
         Console.Write("Please enter name: ");
         var name = Console.ReadLine();
         //var deleteContact = contacts.FirstOrDefault(c => c.Name == name);
-        var deleteContact = (await _db.GetAllAsync()).FirstOrDefault(c => c.Name == name);
+        var deleteContact = _db.GetQueryable().FirstOrDefault(c => c.Name == name);
         if (deleteContact == null)
         {
             Console.WriteLine("Contact does not exist");

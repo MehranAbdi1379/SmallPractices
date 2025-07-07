@@ -18,9 +18,6 @@ public static class MongoClassMapping
             BsonClassMap.RegisterClassMap<BaseEntity>(cm =>
             {
                 cm.AutoMap();
-                cm.MapIdMember(c => c.Id)
-                    .SetSerializer(new GuidSerializer(BsonType.String)) // store GUIDs as strings (safer for querying)
-                    .SetIdGenerator(GuidGenerator.Instance);
             });
 
         if (!BsonClassMap.IsClassMapRegistered(typeof(Contact)))

@@ -21,3 +21,4 @@ F:\Projects\SmallPractices\PracticeOpenClosedPrinciple\bin\Debug\net8.0\Snappier
 F:\Projects\SmallPractices\PracticeOpenClosedPrinciple\bin\Debug\net8.0\ZstdSharp.dll
 F:\Projects\SmallPractices\PracticeOpenClosedPrinciple\obj\Debug\net8.0\PracticeOpenClosedPrinciple.csproj.AssemblyReference.cache
 F:\Projects\SmallPractices\PracticeOpenClosedPrinciple\obj\Debug\net8.0\Practice.E2CA10D0.Up2Date
+F:\Projects\SmallPractices\PracticeOpenClosedPrinciple\obj\Debug\net8.0\PracticeOpenClosedPrinciple.sourcelink.json
