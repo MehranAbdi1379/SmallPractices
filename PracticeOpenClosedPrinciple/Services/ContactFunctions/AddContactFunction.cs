@@ -1,7 +1,7 @@
 ﻿using PracticeOpenClosedPrinciple.Infrastructure;
 using PracticeOpenClosedPrinciple.Model;
 
-namespace PracticeOpenClosedPrinciple.Services;
+namespace PracticeOpenClosedPrinciple.Services.ContactFunctions;
 
 public class AddContactFunction : IContactFunction
 {
@@ -17,19 +17,29 @@ public class AddContactFunction : IContactFunction
 
     public async Task Action()
     {
-        Console.Write("Please enter name: ");
-        var name = Console.ReadLine();
-        if (_db.GetQueryable().Any(c => c.Name == name))
+        while (true)
         {
-            Console.WriteLine("Name already exists");
-            return;
-        }
+            Console.Write("Please enter name: ");
+            var name = Console.ReadLine();
+            if (_db.GetQueryable().Any(c => c.Name == name))
+            {
+                Console.WriteLine("Name already exists");
+                continue;
+            }
 
-        Console.Write("Please enter phone number: ");
-        var phone = Console.ReadLine();
-        var newContact = new Contact { Name = name, Phone = phone };
-        //contacts.Add(newContact);
-        await _db.AddAsync(newContact);
-        Console.WriteLine("Contact added");
+            Console.Write("Please enter phone number: ");
+            var phone = Console.ReadLine();
+            if (_db.GetQueryable().Any(c => c.Phone == phone))
+            {
+                Console.WriteLine("Phone number already exists");
+                continue;
+            }
+
+            var newContact = new Contact { Name = name, Phone = phone };
+            //contacts.Add(newContact);
+            await _db.AddAsync(newContact);
+            Console.WriteLine("Contact added");
+            break;
+        }
     }
 }

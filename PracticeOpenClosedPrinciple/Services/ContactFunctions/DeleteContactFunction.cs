@@ -17,19 +17,22 @@ public class DeleteContactFunction : IContactFunction
 
     public async Task Action()
     {
-        Console.Write("Please enter name: ");
-        var name = Console.ReadLine();
-        //var deleteContact = contacts.FirstOrDefault(c => c.Name == name);
-        var deleteContact = _db.GetQueryable().FirstOrDefault(c => c.Name == name);
-        if (deleteContact == null)
+        while (true)
         {
-            Console.WriteLine("Contact does not exist");
-            return;
+            Console.Write("Please enter name: ");
+            var name = Console.ReadLine();
+            var deleteContact = _db.GetQueryable().FirstOrDefault(c => c.Name == name);
+            if (deleteContact == null)
+            {
+                Console.WriteLine("Contact does not exist");
+                continue;
+            }
+
+            //contacts.Remove(deleteContact);
+            await _db.DeleteAsync(deleteContact);
+
+            Console.WriteLine("Contact deleted");
+            break;
         }
-
-        //contacts.Remove(deleteContact);
-        await _db.DeleteAsync(deleteContact);
-
-        Console.WriteLine("Contact deleted");
     }
 }

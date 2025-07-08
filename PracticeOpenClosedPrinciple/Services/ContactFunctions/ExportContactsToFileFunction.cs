@@ -1,5 +1,6 @@
 ﻿using PracticeOpenClosedPrinciple.Infrastructure;
 using PracticeOpenClosedPrinciple.Model;
+using PracticeOpenClosedPrinciple.Services.ContactFunctions.ContactExportFunctions;
 
 namespace PracticeOpenClosedPrinciple.Services;
 
@@ -17,8 +18,30 @@ public class ExportContactsToFileFunction : IContactFunction
 
     public async Task Action()
     {
-        var contacts = await _db.GetAllAsync();
-        await File.WriteAllLinesAsync("contacts.txt", contacts.Select(c => $"{c.Name}: {c.Phone}"));
-        Console.WriteLine("Contacts have been exported to file");
+        var exportFunctions = new List<IContactExportFunction>
+        {
+            new ContactExportToTextFunction(_db),
+            new ContactExportToCsvFunction(_db),
+            new ContactExportToJsonFunction(_db)
+        };
+
+        while (true)
+        {
+            foreach (var function in exportFunctions)
+                Console.WriteLine($"{function.OptionCode}: {function.Description}");
+
+            Console.Write("Please enter sort option: ");
+            var option = Console.ReadLine() ?? string.Empty;
+
+            var sortFunction = exportFunctions.FirstOrDefault(sf => sf.OptionCode == option);
+            if (sortFunction == null)
+            {
+                Console.WriteLine("Please enter a valid sort option");
+                continue;
+            }
+
+            await sortFunction.Action();
+            break;
+        }
     }
 }

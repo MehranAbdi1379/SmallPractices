@@ -1,27 +1,45 @@
-﻿namespace PracticeOpenClosedPrinciple.Services;
+﻿using PracticeOpenClosedPrinciple.Infrastructure;
+using PracticeOpenClosedPrinciple.Model;
+
+namespace PracticeOpenClosedPrinciple.Services;
 
 public class SortContactsFunction : IContactFunction
 {
+    private readonly MongoDbContext<Contact> _db;
+
+    public SortContactsFunction(MongoDbContext<Contact> db)
+    {
+        _db = db;
+    }
+
     public string OptionCode => "7";
     public string Description => "Sorts contacts";
 
     public async Task Action()
     {
-        var sortFunctions = new List<IContactSortFunction>();
-        if (sortFunctions == null) throw new ArgumentNullException(nameof(sortFunctions));
+        var sortFunctions = new List<IContactSortFunction>
+        {
+            new ContactSortAlphabeticallyAsc(_db),
+            new ContactSortAlphabeticallyDesc(_db),
+            new ContactSortPhoneNumberLength(_db)
+        };
 
         foreach (var function in sortFunctions) Console.WriteLine($"{function.OptionCode}: {function.Description}");
 
-        Console.Write("Please enter sort option: ");
-        var option = Console.ReadLine() ?? string.Empty;
-
-        var sortFunction = sortFunctions.FirstOrDefault(sf => sf.OptionCode == option);
-        if (sortFunction == null)
+        while (true)
         {
-            Console.WriteLine("Please enter a valid sort option");
+            Console.Write("Please enter sort option: ");
+            var option = Console.ReadLine() ?? string.Empty;
+
+            var sortFunction = sortFunctions.FirstOrDefault(sf => sf.OptionCode == option);
+            if (sortFunction == null)
+            {
+                Console.WriteLine("Please enter a valid sort option");
+                continue;
+            }
+
+            await sortFunction.Action();
             return;
         }
-
-        await sortFunction.Action();
     }
 }

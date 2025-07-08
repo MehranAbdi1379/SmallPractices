@@ -17,19 +17,23 @@ public class UpdateContactFunction : IContactFunction
 
     public async Task Action()
     {
-        Console.Write("Please enter name: ");
-        var name = Console.ReadLine() ?? string.Empty;
-        var updateContact = _db.GetQueryable().FirstOrDefault(c => c.Name.ToLower() == name.ToLower());
-        while (updateContact == null)
+        while (true)
         {
-            Console.WriteLine("Contact does not exist");
-            return;
-        }
+            Console.Write("Please enter name: ");
+            var name = Console.ReadLine() ?? string.Empty;
+            var updateContact = _db.GetQueryable().FirstOrDefault(c => c.Name.ToLower() == name.ToLower());
+            if (updateContact == null)
+            {
+                Console.WriteLine("Contact does not exist");
+                continue;
+            }
 
-        Console.Write("Please enter phone number: ");
-        var phoneNumber = Console.ReadLine() ?? updateContact.Phone;
-        updateContact.Phone = phoneNumber;
-        await _db.UpdateAsync(updateContact);
-        Console.WriteLine("Contact updated");
+            Console.Write("Please enter phone number: ");
+            var phoneNumber = Console.ReadLine() ?? updateContact.Phone;
+            updateContact.Phone = phoneNumber;
+            await _db.UpdateAsync(updateContact);
+            Console.WriteLine("Contact updated");
+            break;
+        }
     }
 }
