@@ -20,7 +20,8 @@ public class SearchContactsByNameFunction : IContactFunction
         Console.Write("Please enter name to search: ");
         var name = Console.ReadLine() ?? string.Empty;
         var contacts = _db.GetQueryable().Where(c => c.Name.ToLower().Contains(name.ToLower()));
-        foreach (var contact in contacts) Console.WriteLine($"{contact.Name}: {contact.Phone}");
+        foreach (var contact in contacts)
+            Console.WriteLine($"{contact.Name}: {contact.Phone}. Favorite: {(contact.Favorite ? "Yes" : "No")}");
         return Task.CompletedTask;
     }
 }

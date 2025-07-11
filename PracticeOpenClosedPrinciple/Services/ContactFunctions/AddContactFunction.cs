@@ -35,7 +35,13 @@ public class AddContactFunction : IContactFunction
                 continue;
             }
 
-            var newContact = new Contact { Name = name, Phone = phone };
+            var favoriteBool = false;
+            Console.Write("Is this contact favorite? (yes/no)");
+            var favorite = Console.ReadLine() ?? "no";
+            if (favorite.ToLower() == "yes")
+                favoriteBool = true;
+
+            var newContact = new Contact { Name = name, Phone = phone, Favorite = favoriteBool };
             //contacts.Add(newContact);
             await _db.AddAsync(newContact);
             Console.WriteLine("Contact added");

@@ -30,7 +30,16 @@ public class UpdateContactFunction : IContactFunction
 
             Console.Write("Please enter phone number: ");
             var phoneNumber = Console.ReadLine() ?? updateContact.Phone;
+            if (string.IsNullOrEmpty(phoneNumber)) phoneNumber = updateContact.Phone;
             updateContact.Phone = phoneNumber;
+
+            var favorite = false;
+            Console.Write("Is this contact a Favorite?");
+            var favoriteString = Console.ReadLine() ?? "no";
+            if (favoriteString.ToLower() == "yes" || favoriteString == "")
+                favorite = true;
+            updateContact.Favorite = favorite;
+
             await _db.UpdateAsync(updateContact);
             Console.WriteLine("Contact updated");
             break;

@@ -18,7 +18,8 @@ public class ContactExportToTextFunction : IContactExportFunction
     public async Task Action()
     {
         var contacts = await _db.GetAllAsync();
-        await File.WriteAllLinesAsync("contacts.txt", contacts.Select(c => $"{c.Name}: {c.Phone}"));
+        await File.WriteAllLinesAsync("contacts.txt",
+            contacts.Select(c => $"{c.Name}: {c.Phone}, Favorite: {(c.Favorite ? "Yes" : "No")}"));
         Console.WriteLine("Contacts have been exported to text file");
     }
 }

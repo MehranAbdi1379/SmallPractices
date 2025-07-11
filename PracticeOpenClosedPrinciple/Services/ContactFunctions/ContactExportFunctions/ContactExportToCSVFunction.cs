@@ -20,15 +20,16 @@ public class ContactExportToCsvFunction : IContactExportFunction
         var contacts = await _db.GetAllAsync();
         await using (var writer = new StreamWriter("contacts.csv"))
         {
-            await writer.WriteLineAsync("Name,Phone"); // CSV header
+            await writer.WriteLineAsync("Name,Phone,Favorite"); // CSV header
 
             foreach (var contact in contacts)
             {
                 // Escape commas if needed
                 var name = contact.Name?.Replace(",", "");
                 var phone = contact.Phone?.Replace(",", "");
+                var favorite = contact.Favorite ? "Yes" : "No";
 
-                await writer.WriteLineAsync($"{name},{phone}");
+                await writer.WriteLineAsync($"{name},{phone},{favorite}");
             }
         }
 

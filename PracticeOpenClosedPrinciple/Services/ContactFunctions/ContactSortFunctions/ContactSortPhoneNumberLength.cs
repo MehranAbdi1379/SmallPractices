@@ -20,6 +20,7 @@ public class ContactSortPhoneNumberLength : IContactSortFunction
         var contacts = await _db.GetAllAsync();
         contacts = contacts.OrderBy(c => c.Phone.Length).ToList();
 
-        foreach (var contact in contacts) Console.WriteLine($"{contact.Name}: {contact.Phone}");
+        foreach (var contact in contacts)
+            Console.WriteLine($"{contact.Name}: {contact.Phone}. Favorite: {(contact.Favorite ? "Yes" : "No")}");
     }
 }

@@ -7,3 +7,4 @@ var sqlLogger = new SqlLogger("Server=(localdb)\\MSSQLLocalDB;Database=Log;Trust
 
 var message = "Something important happened!";
 sqlLogger.Log(message);
+

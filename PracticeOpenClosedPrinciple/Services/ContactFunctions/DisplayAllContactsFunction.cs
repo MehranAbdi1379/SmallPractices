@@ -25,6 +25,7 @@ public class DisplayAllContactsFunction : IContactFunction
         }
 
         ;
-        foreach (var contact in contacts) Console.WriteLine($"{contact.Name}: {contact.Phone}");
+        foreach (var contact in contacts)
+            Console.WriteLine($"{contact.Name}: {contact.Phone}. Favorite: {(contact.Favorite ? "Yes" : "No")}");
     }
 }

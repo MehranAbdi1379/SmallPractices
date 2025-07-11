@@ -20,6 +20,7 @@ public class ContactSortAlphabeticallyDesc : IContactSortFunction
         var contacts = await _db.GetAllAsync();
         contacts = contacts.OrderByDescending(c => c.Name).ToList();
 
-        foreach (var contact in contacts) Console.WriteLine($"{contact.Name}: {contact.Phone}");
+        foreach (var contact in contacts)
+            Console.WriteLine($"{contact.Name}: {contact.Phone}. Favorite: {(contact.Favorite ? "Yes" : "No")}");
     }
 }

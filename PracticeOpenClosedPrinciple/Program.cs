@@ -16,7 +16,8 @@ var contactFunctions = new List<IContactFunction>
     new DeleteContactFunction(contactRepository),
     new ExportContactsToFileFunction(contactRepository),
     new SearchContactsByNameFunction(contactRepository),
-    new SortContactsFunction(contactRepository)
+    new SortContactsFunction(contactRepository),
+    new DisplayFavoriteContactsFunction(contactRepository)
 };
 
 MongoClassMapping.RegisterClassMaps();
