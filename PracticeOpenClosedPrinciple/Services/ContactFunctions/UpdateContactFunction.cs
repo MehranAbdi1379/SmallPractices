@@ -12,7 +12,7 @@ public class UpdateContactFunction : IContactFunction
         _db = db;
     }
 
-    public string OptionCode => "3";
+    public string OptionCode => "update";
     public string Description => "Updated contact";
 
     public async Task Action()

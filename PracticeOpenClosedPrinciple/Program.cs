@@ -27,7 +27,7 @@ while (true)
 {
     Console.WriteLine("Options of the application: ");
     foreach (var functionToPrint in contactFunctions)
-        Console.WriteLine($"{functionToPrint.OptionCode}. {functionToPrint.Description}");
+        Console.WriteLine($"{functionToPrint.OptionCode}: {functionToPrint.Description}");
     Console.Write("Please enter option: ");
     var option = Console.ReadLine() ?? "";
 

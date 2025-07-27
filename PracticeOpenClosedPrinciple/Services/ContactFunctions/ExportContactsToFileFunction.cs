@@ -13,7 +13,7 @@ public class ExportContactsToFileFunction : IContactFunction
         _db = db;
     }
 
-    public string OptionCode => "5";
+    public string OptionCode => "export";
     public string Description => "Exports contacts to file";
 
     public async Task Action()

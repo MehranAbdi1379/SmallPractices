@@ -12,7 +12,7 @@ public class SearchContactsByNameFunction : IContactFunction
         _db = db;
     }
 
-    public string OptionCode => "6";
+    public string OptionCode => "search";
     public string Description => "Search contact by name";
 
     public Task Action()

@@ -12,7 +12,7 @@ public class DisplayFavoriteContactsFunction : IContactFunction
         _db = db;
     }
 
-    public string OptionCode => "8";
+    public string OptionCode => "displayFavorite";
     public string Description => "Display favorite contacts";
 
     public async Task Action()

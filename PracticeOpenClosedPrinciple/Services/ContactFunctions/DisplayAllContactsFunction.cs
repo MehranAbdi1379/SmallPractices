@@ -12,7 +12,7 @@ public class DisplayAllContactsFunction : IContactFunction
         _db = db;
     }
 
-    public string OptionCode => "1";
+    public string OptionCode => "display";
     public string Description => "Display all contacts";
 
     public async Task Action()

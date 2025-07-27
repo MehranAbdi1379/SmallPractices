@@ -12,7 +12,7 @@ public class SortContactsFunction : IContactFunction
         _db = db;
     }
 
-    public string OptionCode => "7";
+    public string OptionCode => "sort";
     public string Description => "Sorts contacts";
 
     public async Task Action()

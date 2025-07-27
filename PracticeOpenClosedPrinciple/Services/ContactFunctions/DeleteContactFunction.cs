@@ -12,7 +12,7 @@ public class DeleteContactFunction : IContactFunction
         _db = db;
     }
 
-    public string OptionCode => "4";
+    public string OptionCode => "delete";
     public string Description => "Delete contact";
 
     public async Task Action()

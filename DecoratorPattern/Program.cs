@@ -5,6 +5,5 @@ using DecoratorPattern.Loggers;
 var sqlLogger = new SqlLogger("Server=(localdb)\\MSSQLLocalDB;Database=Log;Trusted_Connection=True;",
     new FileLogger("log.txt", new MongoDbLogger("mongodb://localhost:27017", new ConsoleLogger())));
 
-var message = "Something important happened!";
+var message = "Everything is cool!";
 sqlLogger.Log(message);
-
