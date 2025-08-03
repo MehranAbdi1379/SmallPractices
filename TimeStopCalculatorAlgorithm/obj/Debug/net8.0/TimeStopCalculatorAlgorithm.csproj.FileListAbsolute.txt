@@ -1,0 +1,14 @@
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\bin\Debug\net8.0\TimeStopCalculatorAlgorithm.exe
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\bin\Debug\net8.0\TimeStopCalculatorAlgorithm.deps.json
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\bin\Debug\net8.0\TimeStopCalculatorAlgorithm.runtimeconfig.json
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\bin\Debug\net8.0\TimeStopCalculatorAlgorithm.dll
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\bin\Debug\net8.0\TimeStopCalculatorAlgorithm.pdb
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\TimeStopCalculatorAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\TimeStopCalculatorAlgorithm.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\TimeStopCalculatorAlgorithm.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\TimeStopCalculatorAlgorithm.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\TimeStopCalculatorAlgorithm.dll
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\refint\TimeStopCalculatorAlgorithm.dll
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\TimeStopCalculatorAlgorithm.pdb
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\TimeStopCalculatorAlgorithm.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\SmallPractices\TimeStopCalculatorAlgorithm\obj\Debug\net8.0\ref\TimeStopCalculatorAlgorithm.dll

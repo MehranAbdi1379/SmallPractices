@@ -1,0 +1,14 @@
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\bin\Debug\net8.0\CancelationTokens.exe
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\bin\Debug\net8.0\CancelationTokens.deps.json
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\bin\Debug\net8.0\CancelationTokens.runtimeconfig.json
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\bin\Debug\net8.0\CancelationTokens.dll
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\bin\Debug\net8.0\CancelationTokens.pdb
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\CancelationTokens.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\CancelationTokens.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\CancelationTokens.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\CancelationTokens.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\CancelationTokens.dll
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\refint\CancelationTokens.dll
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\CancelationTokens.pdb
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\CancelationTokens.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\SmallPractices\CancelationTokens\obj\Debug\net8.0\ref\CancelationTokens.dll
