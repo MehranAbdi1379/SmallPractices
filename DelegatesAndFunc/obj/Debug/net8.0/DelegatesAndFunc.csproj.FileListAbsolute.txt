@@ -1,0 +1,15 @@
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\bin\Debug\net8.0\DelegatesAndFunc.exe
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\bin\Debug\net8.0\DelegatesAndFunc.deps.json
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\bin\Debug\net8.0\DelegatesAndFunc.runtimeconfig.json
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\bin\Debug\net8.0\DelegatesAndFunc.dll
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\bin\Debug\net8.0\DelegatesAndFunc.pdb
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.sourcelink.json
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.dll
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\refint\DelegatesAndFunc.dll
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.pdb
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\DelegatesAndFunc.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\DelegatesAndFunc\obj\Debug\net8.0\ref\DelegatesAndFunc.dll

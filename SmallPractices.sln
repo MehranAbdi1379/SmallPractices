@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeOpenClosedPrinciple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS", "CQRS\CQRS.csproj", "{3E34432E-C1A5-4ED8-B844-3152C460B5CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndFunc", "DelegatesAndFunc\DelegatesAndFunc.csproj", "{BAECC2B3-0D20-463E-B218-2E405CED60C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{3E34432E-C1A5-4ED8-B844-3152C460B5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E34432E-C1A5-4ED8-B844-3152C460B5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E34432E-C1A5-4ED8-B844-3152C460B5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAECC2B3-0D20-463E-B218-2E405CED60C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAECC2B3-0D20-463E-B218-2E405CED60C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAECC2B3-0D20-463E-B218-2E405CED60C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAECC2B3-0D20-463E-B218-2E405CED60C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

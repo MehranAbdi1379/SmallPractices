@@ -1,0 +1,15 @@
+D:\RiderProjects\SmallPractices\Reflection\bin\Debug\net8.0\Reflection.exe
+D:\RiderProjects\SmallPractices\Reflection\bin\Debug\net8.0\Reflection.deps.json
+D:\RiderProjects\SmallPractices\Reflection\bin\Debug\net8.0\Reflection.runtimeconfig.json
+D:\RiderProjects\SmallPractices\Reflection\bin\Debug\net8.0\Reflection.dll
+D:\RiderProjects\SmallPractices\Reflection\bin\Debug\net8.0\Reflection.pdb
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.sourcelink.json
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.dll
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\refint\Reflection.dll
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.pdb
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\Reflection.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\Reflection\obj\Debug\net8.0\ref\Reflection.dll

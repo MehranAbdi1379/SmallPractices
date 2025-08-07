@@ -1,0 +1,15 @@
+D:\RiderProjects\SmallPractices\Relection\bin\Debug\net8.0\Relection.exe
+D:\RiderProjects\SmallPractices\Relection\bin\Debug\net8.0\Relection.deps.json
+D:\RiderProjects\SmallPractices\Relection\bin\Debug\net8.0\Relection.runtimeconfig.json
+D:\RiderProjects\SmallPractices\Relection\bin\Debug\net8.0\Relection.dll
+D:\RiderProjects\SmallPractices\Relection\bin\Debug\net8.0\Relection.pdb
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.sourcelink.json
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.dll
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\refint\Relection.dll
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.pdb
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\Relection.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\Relection\obj\Debug\net8.0\ref\Relection.dll
