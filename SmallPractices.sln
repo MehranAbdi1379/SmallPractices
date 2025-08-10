@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndFunc", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypes", "DynamicTypes\DynamicTypes.csproj", "{2653DBF3-8BAE-473F-90F6-475FA65A0782}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA7FBAB-19D4-4510-9C20-B4147692AD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2653DBF3-8BAE-473F-90F6-475FA65A0782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2653DBF3-8BAE-473F-90F6-475FA65A0782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2653DBF3-8BAE-473F-90F6-475FA65A0782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2653DBF3-8BAE-473F-90F6-475FA65A0782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

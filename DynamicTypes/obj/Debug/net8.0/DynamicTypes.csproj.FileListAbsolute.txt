@@ -1,0 +1,15 @@
+D:\RiderProjects\SmallPractices\DynamicTypes\bin\Debug\net8.0\DynamicTypes.exe
+D:\RiderProjects\SmallPractices\DynamicTypes\bin\Debug\net8.0\DynamicTypes.deps.json
+D:\RiderProjects\SmallPractices\DynamicTypes\bin\Debug\net8.0\DynamicTypes.runtimeconfig.json
+D:\RiderProjects\SmallPractices\DynamicTypes\bin\Debug\net8.0\DynamicTypes.dll
+D:\RiderProjects\SmallPractices\DynamicTypes\bin\Debug\net8.0\DynamicTypes.pdb
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.sourcelink.json
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.dll
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\refint\DynamicTypes.dll
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.pdb
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\DynamicTypes.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\DynamicTypes\obj\Debug\net8.0\ref\DynamicTypes.dll
