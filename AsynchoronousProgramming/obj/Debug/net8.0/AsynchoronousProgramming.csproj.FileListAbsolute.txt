@@ -1,0 +1,15 @@
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\bin\Debug\net8.0\AsynchoronousProgramming.exe
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\bin\Debug\net8.0\AsynchoronousProgramming.deps.json
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\bin\Debug\net8.0\AsynchoronousProgramming.runtimeconfig.json
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\bin\Debug\net8.0\AsynchoronousProgramming.dll
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\bin\Debug\net8.0\AsynchoronousProgramming.pdb
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.sourcelink.json
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.dll
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\refint\AsynchoronousProgramming.dll
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.pdb
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\AsynchoronousProgramming.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\AsynchoronousProgramming\obj\Debug\net8.0\ref\AsynchoronousProgramming.dll

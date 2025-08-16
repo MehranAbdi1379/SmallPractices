@@ -1,0 +1,15 @@
+D:\RiderProjects\SmallPractices\GenericVariance\bin\Debug\net8.0\GenericVariance.exe
+D:\RiderProjects\SmallPractices\GenericVariance\bin\Debug\net8.0\GenericVariance.deps.json
+D:\RiderProjects\SmallPractices\GenericVariance\bin\Debug\net8.0\GenericVariance.runtimeconfig.json
+D:\RiderProjects\SmallPractices\GenericVariance\bin\Debug\net8.0\GenericVariance.dll
+D:\RiderProjects\SmallPractices\GenericVariance\bin\Debug\net8.0\GenericVariance.pdb
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.AssemblyInfoInputs.cache
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.AssemblyInfo.cs
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.csproj.CoreCompileInputs.cache
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.sourcelink.json
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.dll
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\refint\GenericVariance.dll
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.pdb
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\GenericVariance.genruntimeconfig.cache
+D:\RiderProjects\SmallPractices\GenericVariance\obj\Debug\net8.0\ref\GenericVariance.dll
