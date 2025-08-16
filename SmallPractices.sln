@@ -20,6 +20,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypes", "DynamicTypes\DynamicTypes.csproj", "{2653DBF3-8BAE-473F-90F6-475FA65A0782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericVariance", "GenericVariance\GenericVariance.csproj", "{C933FAEF-8186-4467-91D3-D6D472C2F19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchoronousProgramming", "AsynchoronousProgramming\AsynchoronousProgramming.csproj", "{3E5FBBCE-E28A-4C9F-AD89-F706F52382B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +70,13 @@ Global
 		{2653DBF3-8BAE-473F-90F6-475FA65A0782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2653DBF3-8BAE-473F-90F6-475FA65A0782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2653DBF3-8BAE-473F-90F6-475FA65A0782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C933FAEF-8186-4467-91D3-D6D472C2F19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C933FAEF-8186-4467-91D3-D6D472C2F19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C933FAEF-8186-4467-91D3-D6D472C2F19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C933FAEF-8186-4467-91D3-D6D472C2F19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5FBBCE-E28A-4C9F-AD89-F706F52382B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5FBBCE-E28A-4C9F-AD89-F706F52382B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5FBBCE-E28A-4C9F-AD89-F706F52382B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5FBBCE-E28A-4C9F-AD89-F706F52382B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
