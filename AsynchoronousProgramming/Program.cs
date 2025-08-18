@@ -4,51 +4,26 @@ internal class Program
 {
     private static async Task Main(string[] args)
     {
-        // await DoSomeAsyncStuff2();
-        // await Task.Delay(1993);
-        // Console.WriteLine("Third Ended");
-        // await Task.Delay(3000);
-
-        await AllMethods();
-        Console.WriteLine("Process Is Done!!!!");
+        // var task = DoSomething();
+        // Console.WriteLine("Everything is alright");
+        // await Task.Delay(2000);
+        // Console.WriteLine(task.Status);
+        var task = ComputeLengthAsync(null);
+        Console.WriteLine("Fetched the task");
+        var length = await task;
+        Console.WriteLine("Length: " + length);
     }
 
-    private static async Task DoSomeAsyncStuff()
+    private static async Task<int> ComputeLengthAsync(string text)
     {
-        await Task.Delay(2000);
-        Console.WriteLine("First Ended" + DateTime.Now.Microsecond);
+        ArgumentNullException.ThrowIfNull(text);
+        await Task.Delay(500);
+        return text.Length;
     }
 
-    private static async Task DoSomeAsyncStuff2()
+    private static async Task DoSomething()
     {
-        DoSomeAsyncStuff();
-        Console.WriteLine("Second Ended" + DateTime.Now.Microsecond);
-    }
-
-    private static async Task AllMethods()
-    {
-        var firstTask = FirstMethod();
-        var secondTask = SecondMethod();
-        var thirdTask = ThirdMethod();
-        Task.WaitAll(firstTask, secondTask, thirdTask);
-    }
-
-
-    private static async Task ThirdMethod()
-    {
-        await Task.Delay(2000);
-        Console.WriteLine("Third Ended");
-    }
-
-    private static async Task SecondMethod()
-    {
-        await Task.Delay(2000);
-        Console.WriteLine("Second Ended");
-    }
-
-    private static async Task FirstMethod()
-    {
-        await Task.Delay(2000);
-        Console.WriteLine("First Ended");
+        await Task.Delay(3000);
+        Console.WriteLine("Something");
     }
 }

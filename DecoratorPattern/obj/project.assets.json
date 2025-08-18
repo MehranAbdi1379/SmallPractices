@@ -2151,26 +2151,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\81\\.nuget\\packages\\": {}
+    "C:\\Users\\mehra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RiderProjects\\SmallPractices\\DecoratorPattern\\DecoratorPattern.csproj",
+      "projectUniqueName": "F:\\Projects\\SmallPractices\\DecoratorPattern\\DecoratorPattern.csproj",
       "projectName": "DecoratorPattern",
-      "projectPath": "D:\\RiderProjects\\SmallPractices\\DecoratorPattern\\DecoratorPattern.csproj",
-      "packagesPath": "C:\\Users\\81\\.nuget\\packages\\",
-      "outputPath": "D:\\RiderProjects\\SmallPractices\\DecoratorPattern\\obj\\",
+      "projectPath": "F:\\Projects\\SmallPractices\\DecoratorPattern\\DecoratorPattern.csproj",
+      "packagesPath": "C:\\Users\\mehra\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\SmallPractices\\DecoratorPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\81\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mehra\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://registry.buluttakin.com/repository/nuget-group/index.json": {}
+        "C:\\Users\\mehra\\.nuget\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -2187,8 +2187,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2219,7 +2218,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\81\\.dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
